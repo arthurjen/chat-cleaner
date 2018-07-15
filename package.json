@@ -1,0 +1,27 @@
+{
+  "name": "chat-cleaner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "npm run test:mocha",
+    "test:mocha": "mocha",
+    "start": "nodemon --exec 'npm run test:mocha'"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurjen/chat-cleaner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurjen/chat-cleaner/issues"
+  },
+  "homepage": "https://github.com/arthurjen/chat-cleaner#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.2"
+  }
+}
